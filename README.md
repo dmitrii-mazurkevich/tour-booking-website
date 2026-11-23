@@ -14,4 +14,4 @@ English and Russian versions with a language switcher, layout for phones and des
 ## Author
 
 Made by Dmitrii Mazurkevich: websites, WordPress and WooCommerce, analytics and AI automation.
-Telegram https://t.me/dmitrii_pjm · dmitrymazurkevichse@gmail.com · [all works](https://github.com/dmitrii-mazurkevich)
+Telegram https://t.me/dmitrii_pjm · dmitrymazurkevichse@gmail.com · [all works](https://dmitriiwebcraft.com)

@@ -148,7 +148,7 @@
   var rv = document.querySelectorAll('.rv');
   if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
     var io = new IntersectionObserver(function (es) {
-      es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      es.forEach(function (en) { if (en.isIntersecting) { var t = en.target; t.classList.add('in'); io.unobserve(t); setTimeout(function () { t.classList.add('rv-done'); }, 1100); } });
     }, { threshold: .12 });
     rv.forEach(function (el) { io.observe(el); });
   } else rv.forEach(function (el) { el.classList.add('in'); });
